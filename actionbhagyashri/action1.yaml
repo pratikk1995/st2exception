@@ -1,0 +1,13 @@
+---
+name: task_1
+pack: pack_pk
+runner_type: "python-script"
+description: action open web response!
+enabled: true
+entry_point: action1.py
+parameters:
+     url:
+        type: string
+        description: APIs url 
+        required: true
+        position: 1
